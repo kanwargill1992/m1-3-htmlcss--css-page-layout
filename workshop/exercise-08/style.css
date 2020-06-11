@@ -1,12 +1,31 @@
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
 }
 
 .header {
+  background-color: blue;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px -5px black;
 }
 
 .registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:30px 100px 20px 100px;
+  border: solid black 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 15px rgba(44, 26, 8, 0.263);
 }
 
 .text-field {

@@ -1,7 +1,41 @@
 body {
   margin: 0;
+  
 }
 
 .mobile-nav-button img {
   width: 18px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desktop-nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.desktop-nav ul li{
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.mobile-nav{
+  margin: 15px;
+}
+
+@media screen and (min-width: 799px){
+  .mobile-nav{
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px){
+  .desktop-nav{
+    display: none;
+  }
 }

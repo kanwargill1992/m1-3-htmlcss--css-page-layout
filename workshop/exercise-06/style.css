@@ -6,8 +6,36 @@ body {
   background-color: #383737;
 }
 
+.drop {
+  display: none;
+}
+
 .nav-dropdown {
+  padding: 30px;
   color: #fff;
   text-decoration: none;
+  position: relative;
   display: inline-block;
+}
+
+.nav-dropdown:hover > .drop {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #03a9f4;
+}
+
+.drop-menu {
+  margin: 0px;
+  padding: 0px;
+}
+
+.drop-menu > a {
+  display: block;
+  padding: 30px;
+}
+
+.drop-menu > a:hover {
+  background-color: dodgerblue;
 }
